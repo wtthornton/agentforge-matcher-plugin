@@ -1,0 +1,23 @@
+{
+  "schema_version": "1",
+  "id": "matcher-test",
+  "display_name": "Matcher Test",
+  "version": "1.0.0",
+  "namespace": "project.matcher-test",
+  "backend": {
+    "entry_point": "agentforge_matcher_test.plugin:register",
+    "routes_prefix": "/api/matcher-test",
+    "resource_providers": []
+  },
+  "agents": [
+    {"name": "fruits-agent", "path": "agentforge_matcher_test/agents/fruits_agent"},
+    {"name": "vehicles-agent", "path": "agentforge_matcher_test/agents/vehicles_agent"},
+    {"name": "weather-agent", "path": "agentforge_matcher_test/agents/weather_agent"}
+  ],
+  "frontend": {
+    "remote_url": "",
+    "nav_label": "Matcher Test",
+    "nav_icon": "Search",
+    "route": "/matcher-test"
+  }
+}

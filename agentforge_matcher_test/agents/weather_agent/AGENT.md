@@ -9,7 +9,6 @@ utterances:
   - chance of precipitation
   - is it going to be sunny
   - temperature tomorrow
-runner: agentforge_matcher_test.agents.weather_agent.runner:WeatherRunner
 ---
 
 # Weather Agent

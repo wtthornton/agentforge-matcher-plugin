@@ -8,7 +8,6 @@ utterances:
   - find me bananas
   - looking for oranges
   - need some fruit
-runner: agentforge_matcher_test.agents.fruits_agent.runner:FruitsRunner
 ---
 
 # Fruits Agent

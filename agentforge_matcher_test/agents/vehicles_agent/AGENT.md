@@ -9,7 +9,6 @@ utterances:
   - hire a cab
   - need a ride
   - find me transport
-runner: agentforge_matcher_test.agents.vehicles_agent.runner:VehiclesRunner
 ---
 
 # Vehicles Agent
